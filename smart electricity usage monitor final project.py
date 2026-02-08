@@ -1,5 +1,5 @@
-from fastapi import FastAPI, HTTPException, Depends, Header
-from pydantic import BaseModel
+from fastapi import FastAPI, HTTPException, Depends, Header # type: ignore
+from pydantic import BaseModel # type: ignore
 import uuid
 from datetime import datetime
 

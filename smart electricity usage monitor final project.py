@@ -1,5 +1,4 @@
-python -m pip install uvicorn fastapi
-===from fastapi import FastAPI, HTTPException, Depends, Header
+from fastapi import FastAPI, HTTPException, Depends, Header
 from pydantic import BaseModel
 import uuid
 from datetime import datetime
